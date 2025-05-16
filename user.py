@@ -1,7 +1,7 @@
 #IMPORTAMOS LIBRERIA DE SQLITE3 QUE VIENE EN PYTHON OTRAS BD TENEMOS QUE REALIZAR LA DESCARGA 
 import sqlite3 as sql
 
-#CREAMOS Y CONECTAMOS A UNA BASE DE DATOS REAL (CMDB.db) COMO EN cop.py (crud only python)
+#CREAMOS Y CONECTAMOS A UNA BASE DE DATOS REAL (CMDB.db)
 #SOLO QUE AHORA LOS QUERRY SI VAN EN LENGUAJE SQL 
 
 def conectar():
@@ -27,7 +27,7 @@ def read_iteam():
         print(fila)
 
 
-#MENU DE OPCIONES PARA CRUD SEGUN admin
+#MENU DE OPCIONES PARA CRUD SEGUN usuario
 def menu():
     while True:
         print("\n1. CREATE ITEM \n2. READ ITEM \n3. EXIT")
